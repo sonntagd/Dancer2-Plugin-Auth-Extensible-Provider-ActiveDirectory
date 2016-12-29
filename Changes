@@ -1,5 +1,8 @@
 Revision history for Dancer2-Plugin-Auth-Extensible-Provider-ActiveDirectory
 
+0.04    2016-12-29
+	Changed minimum perl version to 5.10 as we use feature 'state'
+
 0.03    2016-12-28
         Added option to set groups allowed to login.
 
