@@ -21,10 +21,16 @@ authentication framework.
 To install this module, run the following commands:
 
 ```bash
-	perl Makefile.PL
-	make
-	make test
-	make install
+perl Makefile.PL
+make
+make test
+make install
+```
+
+The easy way is to use `cpanm`:
+
+```bash
+cpanm Dancer2::Plugin::Auth::Extensible::Provider::ActiveDirectory
 ```
 
 ## SUPPORT AND DOCUMENTATION
@@ -33,7 +39,7 @@ After installing, you can find documentation for this module with the
 perldoc command.
 
 ```bash
-    perldoc Dancer2::Plugin::Auth::Extensible::Provider::ActiveDirectory
+perldoc Dancer2::Plugin::Auth::Extensible::Provider::ActiveDirectory
 ```
 
 You can also look for information at [Github](https://github.com/sonntagd/Dancer2-Plugin-Auth-Extensible-Provider-ActiveDirectory).
